@@ -1,0 +1,118 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  padding: 10px;
+  width: 100%;
+  padding: 10px ;
+  
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;
+  padding: 10px;
+ }
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+   
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  text-align: left;
+  width:50%;
+  background-color: #f1f1f1;
+  display: inline-block;
+  border-radius: 30px;
+  box-shadow: inset;
+}
+.card h3{
+ color: blue;
+}
+.container{
+  background-color:  #bef8fa;
+}
+
+/*.card {
+  overflow: hidden;
+  padding: 1em;
+  color: "[theme:bodyText, default: #323130]";
+  color: var(--bodyText);
+  &.teams {
+    font-family: $ms-font-family-fallbacks;
+  }
+}
+
+.bookList {
+  overflow: hidden;
+  padding: 1em;
+  color: "[theme:bodyText, default: #323130]";
+  color: var(--bodyText);
+  &.teams {
+    font-family: $ms-font-family-fallbacks;
+  }
+}
+
+.container{
+  background-color:  #3ff7fd;
+}
+table, td, th {  
+  border: 3px solid #202020;
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  width:100%;
+}
+tr:nth-child(even){background-color: #a2f5f5;}
+.styles{background-color: aqua;}
+th, td {
+  padding: 15px;
+}
+
+
+.welcome {
+  text-align: center;
+}
+
+.welcomeImage {
+  width: 100%;
+  max-width: 420px;
+}
+
+.links {
+  a {
+    text-decoration: none;
+    color: "[theme:link, default:#03787c]";
+    color: var(--link); // note: CSS Custom Properties support is limited to modern browsers only
+
+    &:hover {
+      text-decoration: underline;
+      color: "[theme:linkHovered, default: #014446]";
+      color: var(--linkHovered); // note: CSS Custom Properties support is limited to modern browsers only
+    }
+  }
+}*/

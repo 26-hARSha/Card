@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "card-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/card/CardWebPart.js",
+          "manifest": "./src/webparts/card/CardWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CardWebPartStrings": "lib/webparts/card/loc/{locale}.js"
+  }
+}
